@@ -1,0 +1,44 @@
+$primary: #b83b40;
+$secondary: #383637;
+
+@import '../plugins/bootstrap/scss/bootstrap.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    z-index: 999;
+}
+
+#intro {
+    background-image: url('../images/image 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .intro-content {
+        min-height: 35%;
+        z-index: 1;
+    }
+}
+
+.bg-overlay {
+    background-color: rgba(0,0,0,.5);
+}
+
+.f-familey-none {
+    font-family: none;
+}
+
+.line-height-2 {
+    line-height: 2rem;
+}
